@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+  
+  
+</head>
+
+<body>
+  <div class="container">
+    <div id="login-box">
+      <div class="left">
+        <h1>Employee-Management Form</h1><br>
+        <form id="va" class="va">
+
+          <div class="form">
+            <input type="text" name="Firstname" id="firstName" placeholder="Firstname">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form">
+            <input type="text" name="Lastname" id="lastName" placeholder="Lastname" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form">
+            <input type="text" name="email" id="email" placeholder="E-mail" /><i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form">
+            <input type="text" name="dept" id="dept" placeholder="Department" /><i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form">
+            <input type="text" name="phone" id="phone" placeholder="Phone" /><i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form">
+            <input type="password" name="password" id="password" placeholder="Password" />
+            <i  class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+           
+        </form>
+        <button id="btn" onclick="postaddData()">Register</button> 
+      </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+<script type="text/javascript" src="../JavaScript/getEmpData.js"></script>
+  <script type= "text/javascript" src="../JavaScript/employee.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+
+h1 {
+    margin-left: 400px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  
+table{
+  width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+table, th{
+border: 1 px solid #000;
+border-collapse: collapse;
+}
